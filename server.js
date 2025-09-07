@@ -26,5 +26,5 @@ app.get('/api/products/slug/:slug' , (req , res) =>{
 
 const port = process.env.PORT || 5000;
 app.listen(port, ()=>{
-    console.log(`server running in ${process.env.NODE_ENV || 'development'} mode at http://localhost:${port}`)
+    console.log(`server running in ${port}`)
 })
